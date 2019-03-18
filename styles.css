@@ -1,0 +1,152 @@
+@keyframes color {
+	0% {
+		color: #99ff66;
+		border:#99ff66 double 20px;
+	}
+	16.6% {
+		color:#9999ff;
+		border:#9999ff double 20px ;
+	}
+	33.3% {
+		color: #00ffcc;
+		border:#00ffcc double 20px;	
+	}
+	50% {
+		color: #ff0066;
+		border:#ff0066 double 20px;	
+	}
+	66.6% {
+		color:#6600cc;
+		border:#6600cc double 20px;	
+	}
+	83.3% {
+		color:#3366cc;
+		border:#3366cc double 20px;	
+	}
+	100% {
+		color: pink;
+		border: pink double 20px;
+	}
+	
+}
+
+@keyframes color-transition {
+	0% {
+		background-color: #99ff66;
+		
+	}
+	16.6% {
+		background-color:#9999ff;
+		
+	}
+	33.3% {
+		background-color: #00ffcc;
+		
+	}
+	50% {
+		background-color: #ff0066;
+		
+	}
+	66.6% {
+		background-color:#6600cc;
+		
+	}
+	83.3% {
+		background-color:#3366cc;
+		
+	}
+	100% {
+		background-color: pink;
+	
+	}
+	
+}
+body{
+    animation:color-transition 10s alternate;
+    animation-iteration-count: infinite;
+    }
+#banner{
+   
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    max-width:700px;
+    height:150px;
+    border-radius:20px;
+    background:white;
+    background:black;
+    animation:color 10s alternate;
+    animation-iteration-count: infinite;
+    text-align:center;
+    font-family: 'Economica', sans-serif;
+    font-size:30px;
+    }
+#body{
+    display:flex;
+    flex-direction:column;
+    
+    }
+#text{
+    font-family: 'Economica', sans-serif;
+    text-align:center;
+    font-size:20px;
+    color:#757575;
+    text-align:center;
+    background:white;
+    width:700px;
+    margin:auto;
+    border-radius:20px;
+
+    }
+.container{
+
+    display:flex;
+    
+    justify-content:center;
+    width:100%;
+    }
+input{
+    margin:auto;
+    width:30%;
+    margin-top:10px;
+    font-family: 'Economica', sans-serif;
+    text-align:center;
+    font-size:20px;
+    height:30px;
+    }
+button{
+    font-size:20px;
+    font-family: 'Economica', sans-serif;
+    width:30%;
+
+    height:30px;
+    border-radius:0px;
+    margin-top:10px;
+        }
+
+button:hover{
+    animation:color-transition 10s alternate;
+    animation-iteration-count: infinite;
+    border:solid 0px;
+    }
+    
+.special{
+    width:15%;
+    
+    }
+.enter{
+    
+    margin-left:auto;    
+    margin-right:auto;   
+        }
+.center{
+    display:flex;
+    flex-direction:column;
+
+    }
+.white{
+       height:30px; 
+       background:white;
+       width:30%;
+       margin:auto;
+        }
